@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NOVA TECHNOLOGIES — Building the Future with Technology</title>
+<meta name="theme-color" content="#ffffff">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="NOVA TECHNOLOGIES">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/favicon-48.png" type="image/png" sizes="48x48">
+<link rel="icon" href="assets/icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<script>document.documentElement.dataset.theme='light';try{localStorage.setItem('nova-theme','light')}catch(e){}</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="w hd">
+<a class="lgw" href="#home"><img class="lg" src="assets/nova-symbol-tight.png" alt="NOVA TECHNOLOGIES logo"><span class="brand-name">NOVA</span></a>
+<nav id="nv"></nav>
+<div class="st"><button class="ib" id="kb" aria-label="Settings" aria-haspopup="true" aria-expanded="false">⋮</button>
+<div class="mn" id="mn"><h4 data-t="lang"></h4><div id="lg"></div><h4 data-t="app"></h4><div id="th"><button data-m="light" data-t="light" aria-checked="true"></button></div></div></div>
+<button class="ib hb" id="hm" aria-label="Menu">☰</button>
+</div><div id="mob"></div></header>
+<main>
+<section class="hero" id="home"><div class="w hg">
+<div><div class="eb" data-t="slogan"></div><h1 data-t="h1"></h1><p data-t="intro"></p>
+<div class="bt"><a class="btn p" href="#services" data-t="b1"></a><a class="btn s" href="#contact" data-t="b2"></a></div></div>
+<div class="pl"><img id="hl" src="assets/nova-logo.png" width="1378" height="872" alt="NOVA TECHNOLOGIES — Building the Future with Technology"></div>
+</div></section>
+<section id="about" class="alt"><div class="w"><div class="eb">01</div><h2 data-t="about"></h2>
+<p class="lead" dir="auto">NOVA TECHNOLOGIES is a technology company focused on building practical, well-crafted digital products. We combine clear thinking, modern engineering and careful design to help organizations of every size move forward with confidence.</p></div></section>
+<section id="vision"><div class="w"><div class="eb">02</div><h2 data-t="vision"></h2>
+<div class="vm"><div class="vc"><h3 dir="auto">Our Vision</h3><p dir="auto">To be a trusted international technology partner, known for digital solutions that create lasting value.</p></div>
+<div class="vc"><h3 dir="auto">Our Mission</h3><p dir="auto">To build reliable, elegant software and digital experiences that help our clients operate better and grow.</p></div></div></div></section>
+<section id="services" class="alt"><div class="w"><div class="eb">03</div><h2 data-t="services"></h2><div class="sv" id="sv"></div></div></section>
+<section id="work"><div class="w"><div class="eb">04</div><h2 data-t="work"></h2><div class="wk" id="wk"></div>
+<p class="note" dir="auto">Sample concepts shown for illustration only. Real project screenshots will be added once supplied.</p></div></section>
+<section id="process" class="alt"><div class="w"><div class="eb">05</div><h2 data-t="process"></h2><div class="pr" id="pr"></div></div></section>
+<section id="why"><div class="w"><div class="eb">06</div><h2 data-t="why"></h2><div class="wy" id="wy"></div></div></section>
+<section id="contact" class="alt"><div class="w"><div class="eb">07</div><h2 data-t="contact"></h2>
+<div class="cg"><div class="cl" id="cl"></div></div></div></section>
+</main>
+<footer><div class="w fg"><a class="lgw" href="#home"><img class="lg" src="assets/nova-symbol-tight.png" alt="NOVA TECHNOLOGIES logo"></a><div id="ft"></div></div></footer>
+<script src="js/config.js"></script>
+<script src="js/translations.js"></script>
+<script src="js/main.js"></script>
+<script>if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./service-worker.js").catch(()=>{}));}</script>
+</body>
+</html>
